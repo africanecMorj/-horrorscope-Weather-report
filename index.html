@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open weather map</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css' integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' crossorigin='anonymous'/>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
+</head>
+<body>
+    
+    <div class="wrap">
+        
+        <div class="responsePopup">
+            <div class="inputContaine">
+                <i class="fa-solid fa-xmark" id="btnClose1"></i>
+                
+            </div>
+
+            <div class="breadCrumpContainer">
+                <button id="btnSubm" class="btnSubm"><span class="text">Yes, this is my locality</span></button>
+                    
+            </div>
+                
+            <div class="responseContainer">
+                
+            </div>
+            </div>
+
+         <div class="weatherResult">
+           
+            <div id="position">
+                <div id="posCity"></div>
+                <div id="flag"></div>
+            </div>
+            <div id="temperature"></div>
+            <div id="clouds"></div>
+            <span>
+                Wind angle
+                <i class="fa-solid fa-wind"></i>
+            <div id="winddeg">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+        </span>
+        </div>
+        <div class="inputContainer">
+                <input id="city" placeholder="Type region" type="search">
+                <button class="button" type="button" id="search"></button>
+        </div>
+
+       
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

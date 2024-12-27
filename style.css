@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-image: url(./ries-bosch-nFYPUxElTkc-unsplash.jpg);
+}
+
+.inputContainer {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    position: absolute;
+}
+
+.weatherResult {
+    transition: 1s;
+    width: 20%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 100%;
+    visibility: hidden;
+    background:linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255,255,255,0));
+    backdrop-filter:blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255,0.18);
+    box-shadow: 0 8px 35px 0 rgba(0, 0, 0, 0.37);
+    border-bottom: none;
+    border-top: none;
+}
+
+#winddeg {
+    display: flex;
+    transition: 1s;
+}
+
+.responsePopup{
+    width: 900px;
+    background:linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255,255,255,0));
+    backdrop-filter:blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255,0.18);
+    box-shadow: 0 8px 35px 0 rgba(0, 0, 0, 0.37);
+    height: 80vh;
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+    border-radius: 20px;
+    transform: translate(0%, 10%);
+    flex-direction: column;
+    flex-wrap: wrap;
+    scrollbar-width: thin;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.responsePopup p{
+    margin: 8px;
+}
+
+.xy{
+    border-bottom:2px solid #F9F0DA;
+    border-top:none;
+    height: 3vh;
+}
+
+.xy2{
+    border-bottom:2px solid #F9F0DA;
+    border-top:none;
+    height: 40vh;
+}
+
+.responseContainer{
+    height: 50vh;
+    width: 886px;
+    flex-direction: column;
+    align-items:flex-start;
+    background-color: none;
+    margin: 20px 0;
+}
+
+.inputContaine{
+    position: relative;
+    display: flex;
+    align-items:flex-end;
+    height: 6em;
+    background-color: none;
+    width: 100%;
+    background-color: none;
+  }
+    
+
+.fa-xmark{
+    position: absolute;
+    left:20px;
+    font-size: 25px;
+    color: #F9F0DA;
+    bottom:55px;
+    cursor: pointer;
+    transition: 0.25s;
+    
+}
+
+.fa-xmark:hover{
+    font-size: 28px;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: #9E9C9C;
+  }
+  
+   .button {
+    position: absolute; 
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: #7BA7AB;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    top: 47%;
+  }
+  
+   .button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+  }
+
+  span{
+    display: flex;
+  }
+
+  .fa-solid{
+    margin:1px 3px;
+  }
+
+  #flag{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  .position{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  #posCity span .fa-solid {
+    color:#55777a;
+  }
+
+  #temperature span .fa-solid {
+    color:#c35858;
+  }
+
+  #clouds span .fa-solid {
+    color:#4396b6;
+  }
+
+  .fa-wind {
+    color:#a9c3cd;
+  }
+
+  .fa-arrow-up{
+    color:black ;
+  }
+
+  p{
+    color:black;
+  }
+
+  .btnSubm {
+    background-color:#7BA7AB;
+    border: none;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .weatherResult div{
+    margin: 5px 0;
+  }
+
+  .fa-arrow-up{
+    margin: -1.5px 3px;
+  }
