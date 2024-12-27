@@ -12,3 +12,6 @@ css,
 open weather map,
 unsplash.
 
+||
+![Image alt](https://github.com/africanecMorj/-horrorscope-Weather-report/blob/main/Снимок%20экрана%20(182).png)
+||
