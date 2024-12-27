@@ -3,7 +3,7 @@
 Programe which show weather;
 
 How to run:
-open index.html in whatever (for example Google Chrome);
+open index.html in whatever browser (for example Google Chrome);
 
 Technology:
 js,
