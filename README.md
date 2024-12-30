@@ -14,5 +14,5 @@ unsplash.
 
 https://marvelous-kitsune-8a9b7e.netlify.app/
 
-![Image alt](https://github.com/africanecMorj/-horrorscope-Weather-report/blob/main/Снимок%20экрана%20(182).png)
+![Image alt](https://ibb.co/1ZBBbSm)
 
